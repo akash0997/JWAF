@@ -6,7 +6,7 @@ agent any
     stages {
        stage ('Test') {
           steps {
-               sh 'mvn clean test -Pprod'
+               sh 'mvn clean test'
                }
            }
        }
